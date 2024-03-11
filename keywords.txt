@@ -1,0 +1,18 @@
+# Syntax Coloring Map For ExampleLibrary
+
+# Datatypes (KEYWORD1)
+YX5300	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+YX5300_ESP	KEYWORD2
+play	KEYWORD2
+pause	KEYWORD2
+stop	KEYWORD2
+playFolder	KEYWORD2
+setVolume	KEYWORD2
+incrementVolume	KEYWORD2
+decrementVolume	KEYWORD2
+
+# Instances (KEYWORD2)
+
+# Constants (LITERAL1)
