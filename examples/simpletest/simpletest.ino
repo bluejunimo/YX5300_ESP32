@@ -7,6 +7,7 @@ Updated by Max Nielsen, March 29, 2024.
 
 */
 
+#include "YX5300_ESP32.h"
 
 // typical pins for ESP32 RX and TX
 // *make sure the RX on the YX5300 goes to the TX on the ESP, and vice-versa
