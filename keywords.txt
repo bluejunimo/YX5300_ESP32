@@ -8,6 +8,7 @@ YX5300_ESP32	KEYWORD2
 playTrack	KEYWORD2
 playTrackInLoop	KEYWORD2
 playFolderInLoop	KEYWORD2
+playTrackInFolder   KEYWORD2
 resume	KEYWORD2
 pause	KEYWORD2
 stop	KEYWORD2
@@ -18,7 +19,18 @@ endLoopingTrack	KEYWORD2
 setVolume	KEYWORD2
 incrementVolume	KEYWORD2
 decrementVolume	KEYWORD2
+sleep   KEYWORD2
+wake    KEYWORD2
+reset   KEYWORD2
+mute    KEYWORD2
+unmute  KEYWORD2
+queryCurrentTrackIndex  KEYWORD2
+queryCurrentVolume  KEYWORD2
+queryTrackCount KEYWORD2
+enableDebugging KEYWORD2
+disableDebugging    KEYWORD2
 
 # Instances (KEYWORD2)
+YX5300_ESP32    KEYWORD2
 
 # Constants (LITERAL1)
