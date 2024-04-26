@@ -1,0 +1,28 @@
+YX53000 MP3 Module - Example Songs:
+
+-- Created 26/04/2024 by bluejunimo --
+-- Updated 26/04/2024 by bluejunimo --
+
+A folder of various songs is provided for testing purposes. 
+
+Instructions:
+1. Format your microSD card
+2. Copy folders 01 and 02 onto the microSD card
+3. Eject and insert it into the MP3 module.
+
+
+These songs are all in the public domain, provided by FreePD.com (folder 01) and The Library of Congress (folder 02). For your interest, here are links to the songs: 
+
+01/
+->001.mp3: Aquatic City Vanished (on https://freepd.com/world.php)
+->002.mp3: Connecting Rainbows (on https://freepd.com/world.php)
+->003.mp3: Magic in the Garden (on https://freepd.com/scoring.php)
+->004.mp3: River Meditation (on https://freepd.com/misc.php)
+->005.mp3: Windy Old Weather (on https://freepd.com/world.php)
+
+02/
+->006.mp3: https://www.loc.gov/item/jukebox-260151/
+->007.mp3: https://www.loc.gov/item/jukebox-126454/
+->008.mp3: https://www.loc.gov/item/jukebox-16366/
+->009.mp3: https://www.loc.gov/item/jukebox-35285/
+->010.mp3: https://www.loc.gov/item/jukebox-63520/
