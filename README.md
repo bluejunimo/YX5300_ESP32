@@ -2,8 +2,7 @@
 A library to support the YX5300/YX6300 MP3 Module on the ESP32 platform. I created it because the other libaries use SoftwareSerial, which is unavailable on ESP32. Instead, this libary uses HardwareSerial to interface with the device to control the basic functions of the module. We simplify commands and queries and responses to make it easy for the end-user to use this as an audio player and controller.
 
 ## The MP3 Module
-![blue chip yum](https://github.com/bluejunimo/YX5300_ESP32/blob/main/docs/yx5300.png "Calatex Board")
-
+<img src="https://github.com/bluejunimo/YX5300_ESP32/blob/main/docs/yx5300.png" width="200"/>
 Pictured above is how most YX5300 and YX6300 chips are implemented. They have a simple UART control interface with TX, RX, VCC, and GND pins.
 
 
