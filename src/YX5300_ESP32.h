@@ -93,10 +93,10 @@ class YX5300_ESP32 {
         void playFolderInLoop(byte folder_index);
 
         // Begins playing a track from a specific folder.
-        // int folder_index: the folder number.
         // int track_index: the track's standard index.
-        // Example: You have 10 songs in folder 1. playTrackInFolder(2, 13) would play the third track in folder "02").
-        void playTrackInFolder(byte folder_index, byte track_index);
+        // int folder_index: the folder number.
+        // Example: You have 10 songs in folder 1. playTrackInFolder(13, 2) would play the third track in folder "02").
+        void playTrackInFolder(byte track_index, byte folder_index);
 
         // Resumes the paused track.
         // If used when no track is playing or paused, begins playing 001.mp3 and continuously loops through all the tracks on the SD card. 

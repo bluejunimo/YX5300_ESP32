@@ -40,7 +40,7 @@ void YX5300_ESP32::playFolderInLoop(byte folder_index) {
   sendCommand(CMD_PLAY_FOLDER, folder_index);
 }
 
-void YX5300_ESP32::playTrackInFolder(byte folder_index, byte track_index) {
+void YX5300_ESP32::playTrackInFolder(byte track_index, byte folder_index) {
   dbug(DBUG_INFO, "--- Playing track #" + String(track_index) + " in folder with index " + String(folder_index) + ".");
   sendCommand(CMD_PLAY_TRACK_IN_FOLDER, folder_index, track_index);
 }
