@@ -156,6 +156,18 @@ int YX5300_ESP32::queryTrackCount() {
   return hexToInt(sendCommandWithResponse(QRY_TRACK_COUNT));
 }
 
+int YX5300_ESP32::queryDeviceState() {
+  dbugStart1Line(DBUG_INFO, "--- Querying device state #1...");
+  int value = hexToInt(sendCommandWithResponse(QRY_DEVICE_STATE));
+  dbug1Line(String(value));
+  dbugEnd1Line();
+
+  dbugStart1Line(DBUG_INFO, "--- Querying device state attempt #2...");
+  value = hexToInt(sendCommandWithResponse(QRY_PLAY_MODE));
+  dbug1Line(String(value));
+  dbugEnd1Line();
+}
+
 
 // sends commands to the mp3 module through the serial connection
 void YX5300_ESP32::sendCommand(byte command, byte param1, byte param2) {
