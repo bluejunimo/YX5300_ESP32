@@ -157,15 +157,8 @@ int YX5300_ESP32::queryTrackCount() {
 }
 
 int YX5300_ESP32::queryDeviceState() {
-  dbugStart1Line(DBUG_INFO, "--- Querying device state #1...");
-  int value = hexToInt(sendCommandWithResponse(QRY_DEVICE_STATE));
-  dbug1Line(String(value));
-  dbugEnd1Line();
-
-  dbugStart1Line(DBUG_INFO, "--- Querying device state attempt #2...");
-  value = hexToInt(sendCommandWithResponse(QRY_PLAY_MODE));
-  dbug1Line(String(value));
-  dbugEnd1Line();
+  dbugStart1Line(DBUG_INFO, "--- Querying device play/pause/stop state...");
+  return hexToInt(sendCommandWithResponse(QRY_DEVICE_STATE));
 }
 
 
