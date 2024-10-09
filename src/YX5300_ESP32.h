@@ -63,6 +63,7 @@
 #define QRY_DEVICE_STATE 0x42
 #define QRY_CURRENT_VOLUME 0x43
 #define QRY_TRACK_COUNT 0x48
+#define QRY_PLAY_MODE 0x45
 
 
 // ---- *** ---- //
@@ -165,6 +166,12 @@ class YX5300_ESP32 {
 
         // Returns the total number of tracks hosted on the TF card.
         int queryTrackCount();
+
+        // Returns the state of the device
+        // 0: stopped
+        // 1: playing
+        // 2: paused
+        int queryDeviceState();
 
         // Enable debugging messages on Serial.
         void enableDebugging();

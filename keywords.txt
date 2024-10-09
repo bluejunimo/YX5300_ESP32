@@ -27,6 +27,7 @@ unmute  KEYWORD2
 queryCurrentTrackIndex  KEYWORD2
 queryCurrentVolume  KEYWORD2
 queryTrackCount KEYWORD2
+queryDeviceState    KEYWORD2
 enableDebugging KEYWORD2
 disableDebugging    KEYWORD2
 
